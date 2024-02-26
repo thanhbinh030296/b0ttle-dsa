@@ -14,7 +14,7 @@ int main()
     cout << "\nTernary expression: " << hihi << endl;
 
     // const express
-    condition = false;
+
     if constexpr(condition)
     {
         cout << "const express TRUE" << endl;
