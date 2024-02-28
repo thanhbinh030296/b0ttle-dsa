@@ -24,6 +24,7 @@ int main()
     cout << " p_char  & = " << &p_char << " value = " << *p_char << " size = " << sizeof(p_char) << endl;
 
     char *p1_char{"hihihi"};
+    cout << "message : " << p1_char << endl;
 
     cout << " p1_char  & = " << &p1_char << " value = " << *p1_char << " size = " << sizeof(p1_char) << endl;
     cout << "p1 + 1 " << *(p1_char + 1) << endl;
