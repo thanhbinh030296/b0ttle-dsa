@@ -12,7 +12,7 @@ int main()
 
         a = rand() % 199;
         b = rand() % 199;
-        cout << "a = " << a << " b = " << b << endl;
+       // cout << "a = " << a << " b = " << b << endl;
         calculate = rand() % 3;
         cout << "What's the result of ";
         if (b == 0)
